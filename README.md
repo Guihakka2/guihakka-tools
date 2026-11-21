@@ -8,7 +8,7 @@ Each tool lives in its own repository. English first; Portuguese (pt-BR) and Jap
 
 | Tool | What it does | Install |
 |---|---|---|
-| [envdiff](https://github.com/Guihakka2/envdiff) | Compare `.env` files across environments without printing secrets | `npx @guihakka/envdiff` |
+| [envdiff](https://github.com/Guihakka2/envdiff) | Compare `.env` files across environments without printing secrets | `npx @guihakka2/envdiff` |
 
 ## Idea backlog
 

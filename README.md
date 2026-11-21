@@ -37,24 +37,11 @@ Have the problem one of these solves? 👍 or comment on its issue — that deci
 | 13 | MicGuard | See when mic/camera are active | 💡 |
 | 14 | ai-guard-lock | (existing project) | ✅ |
 
-### Desktop & everyday
+### Desktop & privacy
 | # | Tool | Problem | Status |
 |---|---|---|---|
-| 15 | ClipClean | Fix broken line breaks/spacing in text copied from PDFs | 💡 |
-| 16 | DropSort | Auto-organize files with preview and undo | 💡 |
-| 17 | ScreenshotFinder | Search screenshots by the text inside them (local OCR) | 💡 |
-| 18 | MeetingReady | One-click mic/camera/speaker/network check | 💡 |
-| 19 | FormEasy | Fill PDF forms from saved local profiles | 💡 |
-| 20 | CancelRadar | Track subscriptions and free-trial end dates | 💡 |
-| 21 | PageDiff | Watch web pages for changes | 💡 |
-| 22 | LifeTranslate | Translate documents into a to-do list with deadlines | 💡 |
-| 23 | UseFirst | Home food/product inventory with expiry reminders | 💡 |
-| 24 | ReplyLater | Reminders for messages you need to answer | 💡 |
-| 25 | DownloadDoctor | Broken downloads, corrupt ZIPs, duplicates, checksums | 💡 |
-| 26 | ReceiptBox | Extract date/amount/store from receipts to CSV | 💡 |
-| 27 | LinkKeeper | Saved links with broken-link detection | 💡 |
-| 28 | SimpleTransfer | Encrypted file transfer on the same Wi-Fi, QR pairing | 💡 |
-| 29 | TimeZoneMate | Meeting times across time zones and holidays | 💡 |
+| 15 | DownloadDoctor | Broken downloads, corrupt ZIPs, duplicates, checksums | 💡 |
+| 16 | SimpleTransfer | Encrypted file transfer on the same Wi-Fi, QR pairing | 💡 |
 
 ## Principles
 

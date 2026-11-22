@@ -14,8 +14,12 @@ Each tool lives in its own repository: zero runtime dependencies, tested on Linu
 | [tlsdue](https://github.com/Guihakka2/tlsdue) | TLS certificate and domain expiry checks, free monitoring on GitHub Actions | `npx @guihakka2/tlsdue` |
 | [whohasaccess](https://github.com/Guihakka2/whohasaccess) | Read-only audit of who and what can access your GitHub repositories | `npx @guihakka2/whohasaccess` |
 | [dumpproof](https://github.com/Guihakka2/dumpproof) | Prove a Postgres/MySQL/SQLite backup restores, in an offline throwaway container | `npx @guihakka2/dumpproof` |
-| [downloaddoctor](https://github.com/Guihakka2/downloaddoctor) | Find broken downloads: truncated files, corrupt zips, checksum mismatches | `npx @guihakka2/downloaddoctor` |
+| [downloaddoctor](https://github.com/Guihakka2/downloaddoctor) | Find broken downloads: truncated files, corrupt zips, checksum mismatches | `npx @guihakka2/downloaddoctor` or [download the program](https://github.com/Guihakka2/downloaddoctor/releases/latest) ¹ |
 | ai-guard-lock | (existing project) | |
+
+¹ **No Node.js needed**: standalone programs for Windows (x64, ARM), macOS (Apple silicon, Intel) and Linux (x64, ARM), built by GitHub Actions with a `SHA256SUMS.txt` and a build provenance attestation. Not code-signed with a paid certificate yet, so the first run shows a SmartScreen or Gatekeeper warning; the tool's README explains how to allow it.
+
+**For AI agents**: envdiff, logclump and whohasaccess also run as read-only [MCP](https://modelcontextprotocol.io) servers (`--mcp`), so coding agents like Claude Code, Codex or Cursor can use them without ever seeing secret values.
 
 ## Ideas we did not build, and why
 

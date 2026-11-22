@@ -8,16 +8,16 @@ Each tool lives in its own repository: zero runtime dependencies, tested on Linu
 
 | Tool | What it does | Install |
 |---|---|---|
-| [envdiff](https://github.com/Guihakka2/envdiff) | Compare `.env` files across environments without printing secrets | `npx @guihakka2/envdiff` |
-| [logclump](https://github.com/Guihakka2/logclump) | Group similar errors in huge log files, with first and last seen times | `npx @guihakka2/logclump` |
-| [apishape](https://github.com/Guihakka2/apishape) | Catch breaking JSON API changes in CI; snapshots hold no values | `npx @guihakka2/apishape` |
-| [tlsdue](https://github.com/Guihakka2/tlsdue) | TLS certificate and domain expiry checks, free monitoring on GitHub Actions | `npx @guihakka2/tlsdue` |
-| [whohasaccess](https://github.com/Guihakka2/whohasaccess) | Read-only audit of who and what can access your GitHub repositories | `npx @guihakka2/whohasaccess` |
-| [dumpproof](https://github.com/Guihakka2/dumpproof) | Prove a Postgres/MySQL/SQLite backup restores, in an offline throwaway container | `npx @guihakka2/dumpproof` |
+| [envdiff](https://github.com/Guihakka2/envdiff) | Compare `.env` files across environments without printing secrets | `npx @guihakka2/envdiff` or [download the program](https://github.com/Guihakka2/envdiff/releases/latest) ¹ |
+| [logclump](https://github.com/Guihakka2/logclump) | Group similar errors in huge log files, with first and last seen times | `npx @guihakka2/logclump` or [download the program](https://github.com/Guihakka2/logclump/releases/latest) ¹ |
+| [apishape](https://github.com/Guihakka2/apishape) | Catch breaking JSON API changes in CI; snapshots hold no values | `npx @guihakka2/apishape` or [download the program](https://github.com/Guihakka2/apishape/releases/latest) ¹ |
+| [tlsdue](https://github.com/Guihakka2/tlsdue) | TLS certificate and domain expiry checks, free monitoring on GitHub Actions | `npx @guihakka2/tlsdue` or [download the program](https://github.com/Guihakka2/tlsdue/releases/latest) ¹ |
+| [whohasaccess](https://github.com/Guihakka2/whohasaccess) | Read-only audit of who and what can access your GitHub repositories | `npx @guihakka2/whohasaccess` or [download the program](https://github.com/Guihakka2/whohasaccess/releases/latest) ¹ |
+| [dumpproof](https://github.com/Guihakka2/dumpproof) | Prove a Postgres/MySQL/SQLite backup restores, in an offline throwaway container | `npx @guihakka2/dumpproof` or [download the program](https://github.com/Guihakka2/dumpproof/releases/latest) ¹ |
 | [downloaddoctor](https://github.com/Guihakka2/downloaddoctor) | Find broken downloads: truncated files, corrupt zips, checksum mismatches | `npx @guihakka2/downloaddoctor` or [download the program](https://github.com/Guihakka2/downloaddoctor/releases/latest) ¹ |
 | ai-guard-lock | (existing project) | |
 
-¹ **No Node.js needed**: standalone programs for Windows (x64, ARM), macOS (Apple silicon, Intel) and Linux (x64, ARM), built by GitHub Actions with a `SHA256SUMS.txt` and a build provenance attestation. Not code-signed with a paid certificate yet, so the first run shows a SmartScreen or Gatekeeper warning; the tool's README explains how to allow it.
+¹ **No Node.js needed**: every tool also has standalone programs for Windows (x64, ARM), macOS (Apple silicon, Intel) and Linux (x64, ARM), built by GitHub Actions with a `SHA256SUMS.txt` and a build provenance attestation. Not code-signed with a paid certificate yet, so the first run shows a SmartScreen or Gatekeeper warning; the tool's README explains how to allow it.
 
 **For AI agents**: envdiff, logclump and whohasaccess also run as read-only [MCP](https://modelcontextprotocol.io) servers (`--mcp`), so coding agents like Claude Code, Codex or Cursor can use them without ever seeing secret values.
 

@@ -9,12 +9,12 @@ Each tool lives in its own repository: zero runtime dependencies, tested on Linu
 | Tool | What it does | Install |
 |---|---|---|
 | [envdiff](https://github.com/Guihakka2/envdiff) | Compare `.env` files across environments without printing secrets | `npx @guihakka2/envdiff` |
-| [logclump](https://github.com/Guihakka2/logclump) | Group similar errors in huge log files, with first and last seen times | npm soon |
-| [apishape](https://github.com/Guihakka2/apishape) | Catch breaking JSON API changes in CI; snapshots hold no values | npm soon |
-| [tlsdue](https://github.com/Guihakka2/tlsdue) | TLS certificate and domain expiry checks, free monitoring on GitHub Actions | npm soon |
-| [whohasaccess](https://github.com/Guihakka2/whohasaccess) | Read-only audit of who and what can access your GitHub repositories | npm soon |
-| [dumpproof](https://github.com/Guihakka2/dumpproof) | Prove a Postgres/MySQL/SQLite backup restores, in an offline throwaway container | npm soon |
-| [downloaddoctor](https://github.com/Guihakka2/downloaddoctor) | Find broken downloads: truncated files, corrupt zips, checksum mismatches | npm soon |
+| [logclump](https://github.com/Guihakka2/logclump) | Group similar errors in huge log files, with first and last seen times | `npx @guihakka2/logclump` |
+| [apishape](https://github.com/Guihakka2/apishape) | Catch breaking JSON API changes in CI; snapshots hold no values | `npx @guihakka2/apishape` |
+| [tlsdue](https://github.com/Guihakka2/tlsdue) | TLS certificate and domain expiry checks, free monitoring on GitHub Actions | `npx @guihakka2/tlsdue` |
+| [whohasaccess](https://github.com/Guihakka2/whohasaccess) | Read-only audit of who and what can access your GitHub repositories | `npx @guihakka2/whohasaccess` |
+| [dumpproof](https://github.com/Guihakka2/dumpproof) | Prove a Postgres/MySQL/SQLite backup restores, in an offline throwaway container | `npx @guihakka2/dumpproof` |
+| [downloaddoctor](https://github.com/Guihakka2/downloaddoctor) | Find broken downloads: truncated files, corrupt zips, checksum mismatches | `npx @guihakka2/downloaddoctor` |
 | ai-guard-lock | (existing project) | |
 
 ## Ideas we did not build, and why
